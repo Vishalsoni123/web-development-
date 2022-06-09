@@ -1,0 +1,55 @@
+<html>
+<head>
+ <title> School Enrollment Form </title>  
+ <link rel ="stylesheet" type=" text/css" href="first.css"> 
+</head>
+<body  bgcolor="honeydew"" >
+<div class="schoolhead"><h1><u> DELHI SCHOOL</u></h1></div>
+<p class="heading"><b>REGISTRAION FORM</b></p>
+<div class="maindiv" >
+ <form action="/submit">
+ <h3><label for="username" >Your Name</label></h3> 
+ <input type="text" placeholder="enter your name" required=" required field"  >
+ <br>
+ <h3><label for="Father's Name">Father's Name </label></h3> 
+ <input type="text" placeholder="enter father's name " required=" required field" >
+ <br>
+ <p style="font-size:15px ;"><b>Gender</b></p>
+ <input type="radio" value="MALE" name="Gender">
+ <label for="Male">Male</label>
+ <input type="radio" value="FEMALE" name="Gender">
+ <label for="Male">Female</label>
+ <h3><label for="email">Email id </label> </h3>
+ <input type="email" placeholder="enter your email id " >
+ <br>
+ <h3><label for="contact no.">Your contact No.</label></h3> 
+ <input type="tel" placeholder="enter your number">
+ <br>
+ <h3><label for="address" > Enter Address </label></h3>
+ <textarea placeholder="enter your address"></textarea>
+ <br>
+ <p style="font-size:18px ;"><b>State:</b></p>
+ <select name="States" multiple>
+   <option value="raj">Rajasthan</option>
+   <option value="del">Delhi</option>
+   <option value="raj">mahrastra</option>
+   <option value="del">Gujarat</option>
+   <option value="del">West Bengal</option>
+   <option value="raj">U.P</option>
+   <option value="del">Goa</option>
+ </select>&nbsp;&nbsp;
+<p style="font-size:18px ;"><b>Extra Activities:</b></p> 
+<input type="checkbox" value="sports" name="extra" >
+<label for="sports">sports</label>
+<input type="checkbox" value="music" name="extra" >
+<label for="music">music</label>
+<input type="checkbox" value="language" name="extra" >
+<label for="language">language</label>
+<p style="text-align: center;"><input name="submit" type="submit" ></p>
+</form>
+
+</div>
+
+</body>
+
+</html>
